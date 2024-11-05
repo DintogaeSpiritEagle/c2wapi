@@ -1,12 +1,12 @@
 # App Dockerfile
-# Project: YumiBung
+# Project: C2W API Application
 # Maintaner: David H Tekwie <yamis.spiriteagle@gmail.com>
-# Date: April 2023
+# Date: November 2024
 version: "3.9"
 
 # Networks
 networks:
-  yumibung-network:
+  c2wapi-network:
     driver: bridge
 
 # Volumes
@@ -21,7 +21,7 @@ services:
     build:
       context: .
       dockerfile: ./infra/docker/php/Dockerfile
-    container_name: yumibung_app
+    container_name: c2wapi_app
     volumes:
       - type: volume
         source: php-fpm-socket
@@ -44,13 +44,13 @@ services:
       DB_USERNAME: ${DB_USERNAME}
       DB_PASSWORD: ${DB_PASSWORD}
     networks:
-      - yumibung-network
+      - c2wapi-network
 
   web:
     build:
       context: .
       dockerfile: ./infra/docker/nginx/Dockerfile
-    container_name: yumibung_web
+    container_name: c2wapi_web
     ports:
       - target: 80
         published: ${WEB_PORT:-80}
@@ -66,14 +66,14 @@ services:
         source: ./app
         target: /work/app
     networks:
-      - yumibung-network
+      - c2wapi-network
 
   db:
     build:
       context: .
       dockerfile: ./infra/docker/mysql/Dockerfile
     command: --default-authentication-plugin=mysql_native_password
-    container_name: yumibung_db
+    container_name: c2wapi_db
     ports:
       - target: 3306
         published: ${DB_PORT:-3306}
@@ -91,4 +91,4 @@ services:
       MYSQL_PASSWORD: ${DB_PASSWORD}
       MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
     networks:
-      - yumibung-network
+      - c2wapi-network

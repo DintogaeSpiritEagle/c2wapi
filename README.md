@@ -1,10 +1,10 @@
 # C2Wapi&copy; Cradle To The Web API - Training Web App
 
-The C2Wapicopy Training Web App is a containerized end-to-end web application designed to spread the love for DevSecOps.
+The C2Wapi&copy Web App is a containerized end-to-end web application designed to spread the love for DevSecOps.
 This application is a copied from the [Yumibung](https://github.com/DintogaeSpiritEagle/yumibung) platform, and will be customized for the purpose of teaching students about DevSecOps.
 
 ## Important Note
-This document exists to provide technical guidance to the developers of this application.
+This document exists to provide a foundational guide for further development and customization of this application.
 
 ## Licence & Copyright
 This software application remains the sole property of the &copy;[Ark Cyber Security Consultants](https://www.arkcybersecurityconsultants.com).
