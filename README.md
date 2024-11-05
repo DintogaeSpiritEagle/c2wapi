@@ -1,9 +1,8 @@
-# YumiBung&copy; Venue booking software;
+# C2Wapi&copy; Cradle To The Web API - Training Web App
 
-The YumiBung&copy venue booking software is a containerized end-to-end web application that servers a few purposes
-- Venue booking:
-  - User login
-- Venue booking payment
+The C2Wapicopy Training Web App is a containerized end-to-end web application designed to spread the love for DevSecOps.
+This application is a copied from the [Yumibung](https://github.com/DintogaeSpiritEagle/yumibung) platform, and will be customized for the purpose of teaching students about DevSecOps.
+
 ## Important Note
 This document exists to provide technical guidance to the developers of this application.
 
@@ -16,12 +15,12 @@ Any unauthorized duplication of this appqlication for personal, malicious or mon
 1. Update the `DB_*` environment variables in the `.env` file in your project root:
 `Note:` _These environment variables will be used by docker-compose in the next step to build your database._
 ```
-DB_CONNECTION=yumibung
+DB_CONNECTION=c2wapi
 DB_HOST=db
 DB_PORT=3306
-DB_DATABASE=yumibung
-DB_USERNAME=yumibung
-DB_PASSWORD=yumibung
+DB_DATABASE=c2wapi
+DB_USERNAME=c2wapi
+DB_PASSWORD=c2wapi
 DB_ROOT_PASSWORD=root
 ``` 
 2. Spin up containers
@@ -42,7 +41,7 @@ $ make rollback-test
 ```
 6. Login with the test user credentials.
 ```bash
-E: test@yumibung.com
+E: test@c2wapi.com
 P: abcd1234
 ````
 7. Begin building!
