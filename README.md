@@ -1,6 +1,6 @@
 # C2Wapi&copy; Cradle To The Web API - Training Web App
 
-The C2Wapi&copy Web App is a containerized end-to-end web application designed to spread the love for DevSecOps.
+The C2Wapi&copy; Web App is a containerized end-to-end web application designed to spread the love for DevSecOps.
 This application is a copied from the [Yumibung](https://github.com/DintogaeSpiritEagle/yumibung) platform, and will be customized for the purpose of teaching students about DevSecOps.
 
 ## Important Note
