@@ -42,8 +42,9 @@ $ cd /path/to/code/
 ```
 2. Spin up containers
 ```bash
-$ docker-compose up -d --build // build the project containers. Note: In Dev, run once or everytime the containers need to be respawned.
+$ make up
 ```
+Note: This runs `docker-compose up -d --build`, which re-builds the project containers. In Dev, run once or everytime the containers need to be respawned.
 3. Install / Publish node modules and set `watch` to monitor code updates.
 ```bash
 $ make npm-devup
