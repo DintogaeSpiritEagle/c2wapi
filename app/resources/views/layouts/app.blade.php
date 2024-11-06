@@ -40,7 +40,7 @@
     <div class="d-none">
         //--------------------------
         Hi! I am Unleash user....you there?<br>
-        My email is "user@unleash23.com" and my password you already know! It starts with "p"
+        My email is "user@c2wapi.com" and my password you already know! It starts with "p"
         <br>
         <br>
         <br>
@@ -110,7 +110,7 @@
         <br>
         <br>+----- Woohoo! -----+++
         <br>I am Unleash admin! I told you that my email is: "admin@...",
-        <br>And my power is: "dW5sM0BTSA==".
+        <br>And my power is: "YzJ3QHAxCg==".
         <br>Can you unleash my power???<br>
         <br>"-----------------//<br>
     </div>
