@@ -46,6 +46,6 @@ P: abcd1234
 ````
 7. Begin building!
 
-For more info, please email _SpiritEagle_ at yamis.spiriteagle@gmail.com
+For more info, please email _Tambiye_ at tambiye@yahoo.com
 
-Team ACSC&copy;2022
+Team DICT&copy;2024
