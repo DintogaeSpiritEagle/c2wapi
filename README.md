@@ -66,4 +66,4 @@ P: abcd1234
 
 For more info, please email _SpiritEagle_ at yamis.spiriteagle@gmail.com
 
-Team ACSC&copy;2022
+Team DICT&copy;2024
