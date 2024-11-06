@@ -1,7 +1,7 @@
 # Makefile
-# Project: YumiBung
+# Project: C2W API Application
 # Maintaner: David H Tekwie <yamis.spiriteagle@gmail.com>
-# Date: April 2023
+# Date: November 2024
 # Caution: Speak to maintainer before executing these commands.
 up:
 	docker-compose up -d --build

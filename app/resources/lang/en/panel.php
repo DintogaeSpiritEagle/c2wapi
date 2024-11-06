@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'YumiBung',
+    'site_title' => 'C2WApi',
 ];
