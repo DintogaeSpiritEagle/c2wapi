@@ -23,6 +23,23 @@ DB_USERNAME=c2wapi
 DB_PASSWORD=c2wapi
 DB_ROOT_PASSWORD=root
 ``` 
+
+### If spinning up the containers for the first time.
+1. Initialize the application build.
+```bash
+$ make init
+```
+2. Run the DB migrations & seed the database with test data
+```bash
+$ make fresh
+```
+3. Go to the browser and type: `http:localhost:8080`
+
+### If the application containers were already build previously.
+1. Go to the directory where the application code is.
+```bash
+$ cd /path/to/code/
+```
 2. Spin up containers
 ```bash
 $ docker-compose up -d --build // build the project containers. Note: In Dev, run once or everytime the containers need to be respawned.
