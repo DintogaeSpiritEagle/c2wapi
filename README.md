@@ -33,7 +33,7 @@ $ make init
 ```bash
 $ make fresh
 ```
-3. Go to the browser and type: `http:localhost:8080`
+3. Go to the browser and type: `http://localhost/login`
 
 ### If the application containers were already build previously.
 1. Go to the directory where the application code is.
