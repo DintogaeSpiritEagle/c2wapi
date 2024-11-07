@@ -15,7 +15,7 @@
                         </div>
                     @endif
 
-                    Welcome to the <strong>&copy;YumiBung</strong> venue booking system demo.
+                    Welcome to the <strong>&copy;Pikachu</strong> Pokemon booking system demo.
                     <br><br>
                     This is the test dashboard.
                     

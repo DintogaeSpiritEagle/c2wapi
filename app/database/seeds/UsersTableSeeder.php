@@ -10,14 +10,14 @@ class UsersTableSeeder extends Seeder
         $users = [
             [
                 'id'             => 1,
-                'name'           => 'C2WApi Admin',
+                'name'           => 'Pikachu Admin',
                 'email'          => 'admin@c2wapi.com',
                 'password'       => bcrypt('c2w@p1'),
                 'remember_token' => null,
             ],
             [
                 'id'             => 2,
-                'name'           => 'C2WApi User',
+                'name'           => 'Pikachu User',
                 'email'          => 'user@c2wapi.com',
                 'password'       => bcrypt('password'),
                 'remember_token' => null,
