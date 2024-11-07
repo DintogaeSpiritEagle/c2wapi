@@ -37,7 +37,7 @@ SHELL ["/bin/bash", "-oeux", "pipefail", "-c"]
 # RUN mv composer /usr/bin/composer
 
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-RUN php -r "if (hash_file('sha384', 'composer-setup.php') === 'e21205b207c3ff031906575712edab6f13eb0b361f2085f1f1237b7126d785e826a450292b6cfd1d64d92e6563bbde02') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+RUN php -r "if (hash_file('sha384', 'composer-setup.php') === 'dac665fdc30fdd8ec78b38b9800061b4150413ff2e3b6f88543c636f7cd84f6db9189d43a81e5503cda447da73c7e5b6') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
 RUN php composer-setup.php --filename=composer
 RUN php -r "unlink('composer-setup.php');"
 RUN mv composer /usr/bin/composer
@@ -57,15 +57,13 @@ ENV TZ=UTC \
 
 # Install Deps
 RUN apt-get update && \
-  apt-get -y install git libicu-dev libonig-dev libzip-dev unzip locales && \
-  apt-get clean && \
-  rm -rf /var/lib/apt/lists/* && \
-  locale-gen en_US.UTF-8 && \
-  localedef -f UTF-8 -i en_US en_US.UTF-8 && \
-  mkdir /var/run/php-fpm && \
-  docker-php-ext-install intl pdo_mysql zip bcmath && \
-  composer config -g process-timeout 3600 && \
-  composer config -g repos.packagist composer https://packagist.org
+apt-get -y install git libicu-dev libzip-dev unzip locales && \
+apt-get clean && \
+rm -rf /var/lib/apt/lists/* && \
+locale-gen en_US.UTF-8 && \
+localedef -f UTF-8 -i en_US en_US.UTF-8 && \
+mkdir /var/run/php-fpm && \
+docker-php-ext-install intl pdo_mysql zip bcmath
 
 # Copy assets
 COPY ./infra/docker/php/php-fpm.d/zzz-www.conf /usr/local/etc/php-fpm.d/zzz-www.conf
