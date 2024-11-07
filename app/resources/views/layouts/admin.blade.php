@@ -31,7 +31,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#">
-            <span class="navbar-brand-full"><img src="{{URL::asset('images/upng_logo.png')}}" height="45" class="logo"></span>
+            <span class="navbar-brand-full"><img src="{{URL::asset('images/pika.png')}}" height="45" class="logo"></span>
             <span class="navbar-brand-full">{{ trans('panel.site_title') }}</span>
             <span class="navbar-brand-minimized">{{ trans('panel.site_title') }}</span>
         </a>

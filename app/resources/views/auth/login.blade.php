@@ -5,7 +5,7 @@
         <div class="card mx-4">
             <div class="card-body p-4">
                 
-                <h1 class="text-center"><span class="text-right navbar-brand-full"><img src="{{URL::asset('images/upng_logo.png')}}" height="45" class="logo"></span>{{ trans('panel.site_title') }}</h1>
+                <h1 class="text-center"><span class="text-right navbar-brand-full"><img src="{{URL::asset('images/pika.png')}}" height="45" class="logo"></span>{{ trans('panel.site_title') }}</h1>
 
                 <p class="text-muted text-center">{{ trans('global.login') }}</p>
 
