@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'C2WApi',
+    'site_title' => 'Pet Stop',
 ];
