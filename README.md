@@ -10,7 +10,7 @@ This document exists to provide a foundational guide for further development and
 This software application remains the sole property of the &copy;[Ark Cyber Security Consultants](https://www.arkcybersecurityconsultants.com).
 Any unauthorized duplication of this appqlication for personal, malicious or monetary intent is considered a crime, and punishable by law.
 
-## Installation on Local environment
+## Installation on Local environment.
 ### Steps
 1. Update the `DB_*` environment variables in the `.env` file in your project root:
 `Note:` _These environment variables will be used by docker-compose in the next step to build your database._
