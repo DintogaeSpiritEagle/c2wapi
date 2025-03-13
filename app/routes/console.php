@@ -2,6 +2,7 @@
 
 use Illuminate\Foundation\Inspiring;
 use Illuminate\Support\Facades\Artisan;
+use App\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,5 +20,5 @@ Artisan::command('inspire', function () {
 })->describe('Display an inspiring quote');
 
 Artisan::command('unleash:find {user}', function (string $user) {
-    $this->info("Unleashing the power of: {$user}!");
+    $this->info("Unleashing the power of: \n" . User::find($user)->password);
 });

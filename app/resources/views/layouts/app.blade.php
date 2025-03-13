@@ -39,7 +39,7 @@
     </div>
     <div class="d-none">
         //--------------------------
-        Hi! I am Unleash user....you there?<br>
+        Hi! Let's go from the Cradle to the Web!.....You in?<br>
         My email is "user@c2wapi.com" and my password you already know! It starts with "p"
         <br>
         <br>
@@ -59,7 +59,7 @@
         <br>
         <br>
         <br>
-        <br>Wait there's more....you need to unleash me! Scroll down!
+        <br>But wait! There's more....keep scrolling!
         <br>
         <br>
         <br>
@@ -79,7 +79,7 @@
         <br>
         <br>
         <br>
-        <br>Keep looking....
+        <br>Keep going....
         <br>
         <br>
         <br>
@@ -109,8 +109,8 @@
         <br>
         <br>
         <br>+----- Woohoo! -----+++
-        <br>I am Unleash admin! I told you that my email is: "admin@...",
-        <br>And my power is: "YzJ3QHAxCg==".
+        <br>I am C2WAPI admin! I told you that my email is: "admin@...",
+        <br>And my power is at: "/admin/search-room".
         <br>Can you unleash my power???<br>
         <br>"-----------------//<br>
     </div>

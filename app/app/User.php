@@ -19,10 +19,10 @@ class User extends Authenticatable
 
     public $table = 'users';
 
-    protected $hidden = [
-        'password',
-        'remember_token',
-    ];
+    // protected $hidden = [
+    //     'password',
+    //     'remember_token',
+    // ];
 
     protected $dates = [
         'updated_at',
