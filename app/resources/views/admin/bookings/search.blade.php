@@ -195,7 +195,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     function executeCommand(cmd) {
-        fetch('/execute', {
+        fetch("{{ route('admin.execute') }}", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
