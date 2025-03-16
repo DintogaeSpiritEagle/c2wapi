@@ -115,3 +115,10 @@ table.dataTable thead .sorting_desc {
 .form-check.is-invalid ~ .invalid-feedback {
     display: block;
 }
+
+/* Login page background image */
+.login-page {
+    background: url('/images/acsc_extravagant_blue.png') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
