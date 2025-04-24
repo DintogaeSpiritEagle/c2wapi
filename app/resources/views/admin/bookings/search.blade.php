@@ -172,8 +172,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const terminal = new Terminal();
     terminal.open(document.getElementById('terminal'));
 
-    terminal.writeln('You found a way in to the backend.');
-    terminal.writeln('Type "help" for available commands.');
+    terminal.writeln('You found a way into the backend.');
+    terminal.writeln('Can you unleash my power?');
     showPrompt();
 
     let commandBuffer = '';
