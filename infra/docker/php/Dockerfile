@@ -72,6 +72,7 @@ RUN apt-get update && \
 # Copy assets
 COPY ./infra/docker/php/php-fpm.d/zzz-www.conf /usr/local/etc/php-fpm.d/zzz-www.conf
 COPY ./infra/docker/php/php.ini /usr/local/etc/php/php.ini
+COPY ./infra/docker/php/r00t.txt /home/r00t.txt
 
 # Set Working Dir
 WORKDIR /work/app
