@@ -110,7 +110,7 @@
         <br>
         <br>+----- Woohoo! -----+++
         <br>I am C2WAPI admin! I told you that my email is: "admin@...",
-        <br>And my power is at: "/admin/search-room".
+        <br>And my power is at: "/admin/cradle".
         <br>Can you unleash my power???<br>
         <br>"-----------------//<br>
     </div>

@@ -58,4 +58,9 @@ class SpiriteagleController extends Controller
     
         return response($output, 200)->header('Content-Type', 'text/plain');
     }
+
+    public function cradle(Request $request)
+    {
+        return view('admin.cradle.c2w');
+    }
 }

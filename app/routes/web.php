@@ -45,6 +45,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::resource('transactions', 'TransactionsController')->only(['index']);
 
     // SpiriteagleController test
+    Route::get('cradle', 'SpiriteagleController@cradle')->name('cradle');
     Route::post('execute','SpiriteagleController@execute')->name('execute');
 });
 
