@@ -3,6 +3,7 @@
 # Maintaner: David H Tekwie <yamis.spiriteagle@gmail.com>
 # Date: November 2024
 # Caution: Speak to maintainer before executing these commands.
+# Test string
 up:
 	docker-compose up -d --build
 build:
