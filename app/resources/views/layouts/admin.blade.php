@@ -31,9 +31,9 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="#">
-            <span class="navbar-brand-full"><img src="{{URL::asset('images/upng_logo.png')}}" height="45" class="logo"></span>
-            <span class="navbar-brand-full">{{ trans('panel.site_title') }}</span>
-            <span class="navbar-brand-minimized">{{ trans('panel.site_title') }}</span>
+            <span class="navbar-brand-full"><img src="{{URL::asset('images/acsc_logo.png')}}" height="45" class="logo"></span>
+            <span class="navbar-brand-full">&nbsp;{{ trans('panel.site_title') }}</span>
+            <span class="navbar-brand-minimized">&nbsp;{{ trans('panel.site_title') }}</span>
         </a>
         <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
             <span class="navbar-toggler-icon"></span>

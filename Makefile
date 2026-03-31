@@ -21,6 +21,8 @@ install-googlemaps-js-api-loader:
 remake:
 	@make destroy
 	@make init
+start:
+	docker-compose start
 stop:
 	docker-compose stop
 down:

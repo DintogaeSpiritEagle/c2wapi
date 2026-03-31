@@ -24,8 +24,8 @@ class UsersTableSeeder extends Seeder
             ],
             [
                 'id'             => 3,
-                'name'           => 'Admin User 2',
-                'email'          => 'admin2@unleash23.com',
+                'name'           => 'Wame Blood',
+                'email'          => 'admin@wbt.com.pg',
                 'password'       => bcrypt('password'),
                 'remember_token' => null,
             ],
